@@ -44,7 +44,9 @@ Procedure to upload songs:
         IN `singer_name` VARCHAR(255), 
         IN `song_image` VARCHAR(255), 
         IN `audio_file` VARCHAR(255)
-    ) NO SQL
+    ) 
+
+    
     INSERT INTO upload_albums(
         `singer_id`, 
         `song_name`, 
